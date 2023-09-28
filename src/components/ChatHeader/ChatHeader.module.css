@@ -21,6 +21,7 @@
 
 .title {
   font-size: 16px;
+  cursor: pointer;
 }
 .imgContainer {
   position: relative;
@@ -53,6 +54,7 @@
 .editBtn {
   border: none;
   background: transparent;
+  cursor: pointer;
 }
 .editBtn {
   position: absolute;

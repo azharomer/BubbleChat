@@ -1,0 +1,6 @@
+.messagesWrapper {
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 75%;
+  overflow-y: auto;
+}

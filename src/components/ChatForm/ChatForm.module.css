@@ -1,0 +1,27 @@
+.bubbleFooter {
+  padding: 5px;
+}
+
+.bubbleFooterContant {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0px 0px 0px 2px #e9ecef;
+  gap: 5px;
+  align-items: center;
+}
+
+.sendInput {
+  height: 30px;
+  outline: none;
+  border: none;
+}
+
+.sendBtn {
+  border: none;
+  background: transparent;
+}
+
+.hidden {
+  display: none;
+}

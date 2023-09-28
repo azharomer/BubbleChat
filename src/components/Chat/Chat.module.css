@@ -1,0 +1,26 @@
+.bubble {
+  border-radius: 4px 10px 0 10px;
+  padding: 5px;
+  width: max-content;
+  max-width: calc(100% - 50px);
+  box-shadow: 0px 1px 1px 1px #e9ecef;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.bubble.user {
+  margin-left: auto;
+  border-radius: 4px 10px 0 10px;
+  background-color: #b3ddec;
+  box-shadow: 0px 1px 1px 1px #e9ecef;
+}
+.bubble:not(.user) {
+  background-color: #e9ecef;
+  color: #1c2c4c;
+  margin-right: auto;
+}
+
+.bubble img {
+  width: 100%;
+}

@@ -1,38 +1,55 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#chatCon {
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#chatCon .chat-box {
+  /* display: none; */
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background-color: #f8f9fa;
+  bottom: 0px;
+  right: 3%;
+  z-index: 200000000000000;
+}
+
+@media only screen and (min-width: 641px) {
+  #chatCon {
+    max-width: 100%;
+    width: 300px;
+    position: absolute;
+    bottom: 3%;
+    right: 0;
+  }
+
+  #chatCon .chat-box {
+    /* display: none; */
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #f8f9fa;
+    bottom: 0px;
+    right: 3%;
+    z-index: 200000000000000;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#chatCon .pop {
+  width: 100%;
+  height: 25%;
+  cursor: pointer;
+}
+
+#chatCon .pop span {
+  background: #1ad01a;
+  border-radius: 50%;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 15px;
 }
